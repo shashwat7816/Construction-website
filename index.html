@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Website</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .div1{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="IMAGE/LG1.png" alt="LPU Construction" width="150px" height="120px" class="logo">
+         <div>
+            <h3><a href="contact.htm" id="col1">Contact Us:</a></h3>
+            <h3><a href="contact.htm" id="col2">9764xxxxxx</a></h3>
+            <h3 id="col1">Email:</h3><h3><a href="mailto:lpuconstructions@gmail.com" id="col2">lpuconstructions@gmail.com</a></h3>
+         </div>
+         <div>
+            <h3 id="col1">Location:</h3><h3 id="col2">Jalandhar,Punjab</h3>
+         </div>
+         <div>
+            <button type="button">
+                <a href="login.html" id="col1">Login</a>
+            </button>
+         </div>
+    </header>
+    <hr>
+    <section id="nav">
+        <div id="nav1">
+        <nav>
+            <ul id="navi">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About_us.htm">About Us</a></li>
+                <li><a href="our_Buisness.htm">Our Business</a></li>
+                <li><a href="project.htm">Projects</a></li>
+                <li><a href="media.htm">Media</a></li>
+                <li><a href="carrer.htm">Career</a></li>
+                <li><a href="contact.htm">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+    </section>
+    <main>
+        <center><h1>Construction Images</h1></center>
+        <div class="frame">
+            <img src="" id="img">
+            <script type="text/javascript">
+                let img =document.getElementById('img')
+                let images = ['IMAGE/IM3.png','IMAGE/IM4.png','IMAGE/IM5.png']
+                setInterval(function(){
+                    let random =Math.floor(Math.random()*3);
+                    img.src=images[random];
+                }, 800)
+            </script>
+        </div>
+        <div>
+            <div class="div1">
+                <h1>About us</h1>
+                <p>LPU Construction has been a cornerstone in the Punjab
+                     construction industry since 2010. Our foundation is 
+                     built on a legacy of integrity, innovation, and craftsmanship.</p>
+                     <button type="button"><a href="About_us.htm" id="col1">Read More</a></button>
+            </div>
+            <div class="div2">
+                <video width="700px" height="400px" controls>
+                    <source src="IMAGE/VD1.webm">
+            
+                </video>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 LPU Construction. All rights reserved.</p>
+    </footer>
+</body>
+</html>

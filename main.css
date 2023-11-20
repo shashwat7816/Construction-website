@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: #ff1d58;
+}
+h2{
+    color: rgb(33, 101, 217);
+}
+h3{
+    color:#ff5e6c;
+}
+body{
+    min-height:min-content;
+            font-family: 'Poppins', sans-serif;
+            background-image: url(IMAGE/IM8.jpg);
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+}
+header{
+    padding: 0px 3%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:10px;
+}
+#nav1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav ul {
+    list-style-type:none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 8px 55px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-style:double;
+    border-width:10px;
+    width: fit-content;
+}
+
+nav ul li a {
+    color:deeppink;
+    text-decoration: none;
+    padding: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.3s ease 0s;
+}
+nav ul li a:hover {
+    color:khaki;
+    background-color: brown;
+}
+
+.logo{
+    width: 15%;
+    float:left;
+    padding:5px 5px;
+    cursor: pointer;
+}
+button{
+    border-radius: 20px;
+}
+button a{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+}
+button a:hover{
+    color:mintcream;
+    cursor: pointer;
+}
+.button{
+    transition: all 0.3s ease 1s;
+}
+.hero{
+    margin:20px 10px 300px 10px;
+}
+.frame{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+#img{
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    transition:3s;
+    box-shadow: 1px 2px 10px 5px whitesmoke;
+}
+#col1{
+    color: coral;
+}
+#col2{
+    color: rgb(30, 193, 111);
+}
+main{
+    padding: 20px;
+    margin-bottom: 150px;
+}
+footer{
+    background-color:cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
+}
+.div1{
+    float: left;
+    width: 42%;
+    border-color: blueviolet;
+    border-width: 6px;
+    border-style: groove;
+}
+.div1 p{
+    font-size: 30px;
+}
+.div1 h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.div2{
+    float: right;
+    width:50%;
+    overflow:hidden;
+    height:400px
+
+}
+.div2 img{
+    height: 700px;
+    width: 900px;
+}
+.div1 input{
+    display: block;
+    margin:auto;
+    font-size: 22px;
+    padding: 10px;
+    float: left;
+    border-radius: 10px;
+    background-color: purple;
+}

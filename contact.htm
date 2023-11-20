@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Website</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .contact-section {
+    margin: 40px 0;
+  }
+p{
+    font-size: 15px;
+}
+a{
+    font-size:20px;
+}
+  .contact-section h2, .contact-section h3 {
+    color: #333;
+  }
+
+  .contact-info {
+    margin-bottom: 20px;
+  }
+
+  .social-media a {
+    margin-right: 10px;
+  }
+
+  .contact-form {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .contact-form input[type='text'],
+  .contact-form input[type='email'],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(201, 82, 82);
+  }
+
+  .contact-form button {
+    padding: 10px 15px;
+    background: #333;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover {
+    background: #e8491d;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  #h3{
+    color:#e8491d
+  }
+  #p{
+    color:rgb(45, 198, 96);
+  }
+  #p1{
+    color:red
+  }
+      </style>
+</head>
+<body>
+    <header>
+        <img src="IMAGE/LG1.png" alt="LPU Construction" width="150px" height="120px" class="logo">
+         <div>
+            <h3><a href="#contact" id="col1">Contact Us:</a></h3>
+            <h3><a href="#contact" id="col2">9764xxxxxx</a></h3>
+            <h3 id="col1">Email:</h3><h3><a href="mailto:lpuconstructions@gmail.com" id="col2">lpuconstructions@gmail.com</a></h3>
+         </div>
+         <div>
+            <h3 id="col1">Location:</h3><h3 id="col2">Jalandhar,Punjab</h3>
+         </div>
+    </header>
+    <hr>
+    <section id="nav">
+        <div id="nav1">
+        <nav>
+            <ul id="navi">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About_us.htm">About Us</a></li>
+                <li><a href="our_Buisness.htm">Our Business</a></li>
+                <li><a href="project.htm">Projects</a></li>
+                <li><a href="media.htm">Media</a></li>
+                <li><a href="carrer.htm">Career</a></li>
+                <li><a href="contact.htm">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+    <div class="container">
+        <section class="contact-section">
+          <h2>Get in Touch with LPU Construction</h2>
+          <br><br>
+          <div class="contact-info">
+            <h3 id="h3">Our Office</h3>
+            <p id="p">LPU Construction Inc.<br>
+            123 NH<br>
+            Jalandhar, PB 45678</p>
+      <br>
+            <h3 id="h3">Phone</h3>
+            <p id="p">9764xxxxxx</p>
+      <br>
+            <h3 id="h3">Email</h3>
+            <p id="p">lpuconstructions@gmail.com</p>
+      <br>
+            <h3 id="h3">Hours of Operation</h3>
+            <p id="p">Monday - Friday: 8:00 AM - 5:00 PM<br>
+            Saturday: By appointment<br>
+            Sunday: Closed</p>
+      <br>
+            <h3 id="h3">Stay Connected</h3>
+            <div class="social-media">
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</a>
+              <a href="#">LinkedIn</a>
+              <a href="#">Instagram</a>
+            </div>
+          </div>
+      
+          <div class="contact-form">
+            <h3 id="h3">Send Us a Message</h3>
+            <br>
+            <form action="submit-form" method="POST">
+              <label id="p1" for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+      
+              <label id="p1" for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+      
+              <label id="p1" for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+      
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </section>
+      </div>  
+    <footer >
+        <p>&copy; 2023 LPU Construction. All rights reserved.</p>
+    </footer>
+</body>
+</html>

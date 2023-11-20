@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Website</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .project-section {
+    margin: 40px 0;
+  }
+
+  .project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: bisque;
+  }
+
+  .project h3 {
+    margin: 5px 0;
+  }
+
+  .project-description {
+    margin: 10px 0;
+  }
+
+  .project-gallery a {
+    color: #e8491d;
+    text-decoration: none;
+  }
+
+  .project-gallery a:hover {
+    text-decoration: underline;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+#image,#img{
+    display: none;
+    height: 600px;
+    width: 1115px;
+}
+    </style>
+    <script>
+        function show(){
+            document.getElementById('image').style.display= "block";
+            document.getElementById('id').style.display='none';
+        }
+        function sh(){
+            document.getElementById('img').style.display= "block";
+            document.getElementById('ID').style.display='none';
+        }
+    </script>
+</head>
+    </script>
+</head>
+<body>
+    <header>
+        <img src="IMAGE/LG1.png" alt="LPU Construction" width="150px" height="120px" class="logo">
+         <div>
+            <h3><a href="#contact" id="col1">Contact Us:</a></h3>
+            <h3><a href="#contact" id="col2">9764xxxxxx</a></h3>
+            <h3 id="col1">Email:</h3><h3><a href="mailto:lpuconstructions@gmail.com" id="col2">lpuconstructions@gmail.com</a></h3>
+         </div>
+         <div>
+            <h3 id="col1">Location:</h3><h3 id="col2">Jalandhar,Punjab</h3>
+         </div>
+    </header>
+    <hr>
+    <section id="nav">
+        <div id="nav1">
+        <nav>
+            <ul id="navi">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About_us.htm">About Us</a></li>
+                <li><a href="our_Buisness.htm">Our Business</a></li>
+                <li><a href="project.htm">Projects</a></li>
+                <li><a href="media.htm">Media</a></li>
+                <li><a href="carrer.htm">Career</a></li>
+                <li><a href="contact.htm">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+  <main>
+    <div class="container">
+        <section class="project-section">
+          <h2>Our Projects</h2>
+          
+          <div class="project">
+            <h3>EcoBuild Innovation Hub</h3>
+            <div class="project-description">
+                An innovative and eco-friendly construction project dedicated 
+                to sustainable practices and cutting-edge technologies.
+            </div>
+            <div class="project-gallery">
+              <a href="#">View Project Photos</a>
+              <img id="image" src="IMAGE/IM6.jpg">
+              
+            </div>
+            <button type="button" onclick="show()" id="id">Show Image</button>
+          </div>
+          <div class="project">
+            <h3>Apex Industrial Park</h3>
+            <div class="project-description">
+                The epitome of industrial excellence, this park is tailored for businesses 
+                seeking a prime location and top-notch facilities.Description: A state-of-the-art
+                 commercial building that combines modern design with eco-friendly features. It stands 
+                 as a testament to our commitment to sustainability.
+            </div>
+            <div class="project-gallery">
+              <a href="#">View Project Photos</a>
+              <img id="img" src="IMAGE/IM7.jpg">
+            </div>
+            <button type="button" onclick="sh()" id="ID">Show Image</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 LPU Construction. All rights reserved.</p>
+    </footer>
+</body>
+</html>
